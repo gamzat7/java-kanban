@@ -10,8 +10,6 @@ public class Epic extends Task {
         super(taskName, taskDescription, taskStatus);
     }
 
-
-
     public List<Integer> getSubTaskIds() {
         return subTaskIds;
     }
